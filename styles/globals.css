@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme inline {
   /* neutral */
@@ -33,7 +33,8 @@
   --gradient-main: linear-gradient(135deg, #ff4a45 0%, #f14f4a 100%);
 }
 
-[data-theme='dark'] {
+[data-theme="dark"],
+.dark {
   /* neutral */
   --bg: #000000;
   --bg-alt: #1f1f1f;
@@ -51,7 +52,7 @@
 
 @utility wrapper {
   /* Set a maximum width of 1536px to align with common large screen sizes, while maintaining responsiveness */
-  width: min(1536px, 100% - 2rem);
+  width: min(1200px, 100% - 2rem);
   margin-inline: auto;
 }
 
