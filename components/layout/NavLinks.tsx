@@ -8,7 +8,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "./sheet"; // shadcn sheet components
+} from "../ui/sheet"; // shadcn sheet components
 import { Bars3Icon } from "@heroicons/react/24/solid";
 
 const NavLinks = () => {

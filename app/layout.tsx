@@ -9,8 +9,8 @@ import {
   Gamja_Flower,
 } from "next/font/google";
 import "@/styles/globals.css";
-import Navbar from "@/components/ui/Navbar";
-import Footer from "@/components/ui/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import { Toaster } from "sonner";
 
 const gelasio = Gelasio({
