@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@theme inline {
+  /* neutral */
+  --color-bg: var(--bg);
+  --color-bg-alt: var(--bg-alt);
+  --color-border: var(--border);
+  --color-text: var(--text);
+
+  /* accents */
+  --color-primary: var(--primary); /* your “FF4A45” red */
+  --color-secondary: var(--secondary); /* your “F14F4A” red */
+  --color-muted: var(--muted); /* mid gray */
+
+  /* gradient */
+
+  --color-gradient-main: var(--gradient-main);
+}
+
+:root {
+  /* neutral */
+  --bg: #ffffff;
+  --bg-alt: #e5e5e5;
+  --border: #a6a6a6;
+  --text: #000000;
+
+  /* accents */
+  --primary: #ff4a45; /* your “FF4A45” red */
+  --secondary: #f14f4a; /* your “F14F4A” red */
+  --muted: #999999; /* mid gray */
+
+  /* gradient */
+  --gradient-main: linear-gradient(135deg, #ff4a45 0%, #f14f4a 100%);
+}
+
+[data-theme='dark'] {
+  /* neutral */
+  --bg: #000000;
+  --bg-alt: #1f1f1f;
+  --border: #999999;
+  --text: #ffffff;
+
+  /* accents */
+  --primary: #f14f4a;
+  --secondary: #ff4a45;
+  --muted: #a6a6a6;
+
+  /* gradient */
+  --gradient-main: linear-gradient(135deg, #f14f4a 0%, #ff4a45 100%);
+}
+
+@utility wrapper {
+  /* Set a maximum width of 1536px to align with common large screen sizes, while maintaining responsiveness */
+  width: min(1536px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+kbd > kbd {
+  color: midnightblue;
+  background: aliceblue;
+  border-radius: 4px;
+  padding-inline: 4px;
+  box-shadow: 2px 2px 0 3px lightsteel;
+
+  &:last-child {
+    margin-inline-end: 4px;
+  }
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-goldman);
+  @apply wrapper;
+}
+
