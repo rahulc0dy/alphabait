@@ -16,10 +16,14 @@ const ErrorPage = ({ error }: { error: unknown }) => {
     }
   }, [error]);
 
+  console.debug(message);
+
   return (
     <div className="wrapper flex flex-col items-center justify-center gap-5 py-5 md:py-10">
       <h1 className="text-primary text-5xl font-bold">Something Went Wrong</h1>
-      <p className="max-w-prose overflow-ellipsis">{message}</p>
+      <p className="max-w-prose overflow-ellipsis">
+        The alphabet you want to learn is invalid, or not yet supported.
+      </p>
     </div>
   );
 };
