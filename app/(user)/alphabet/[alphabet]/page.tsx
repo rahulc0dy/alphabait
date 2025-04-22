@@ -7,6 +7,11 @@ const alphabetValidation = z
   .regex(/^[a-z0-9]$/i, "The alphabet is invalid or not yet supported.")
   .toLowerCase();
 
+export async function generateStaticParams() {
+  const letters = "abcdefghijklmnopqrstuvwxyz0123456789".split("");
+  return letters.map((letter) => ({ alphabet: letter }));
+}
+
 const LetterPage = async ({
   params,
 }: {
