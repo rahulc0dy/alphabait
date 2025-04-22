@@ -1,32 +1,20 @@
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import React from "react";
-import ThemeSwitchButton from "./ThemeSwitchButton";
-import ThemeLogo from "./ThemeLogo"; // new client component for logo
+import ThemeLogo from "./ThemeLogo";
+import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
     <nav className="wrapper flex items-center justify-between py-4">
-      <Link href={"/"} className="flex items-center gap-4">
+      <Link href="/" className="flex items-center gap-4">
         <ThemeLogo />
         <p className="text-2xl font-black">
           <span className="text-primary">A</span>lpha
           <span className="text-primary">B</span>ait
         </p>
       </Link>
-      <div className="flex items-center gap-5">
-        <ThemeSwitchButton />
-        <button className="flex cursor-pointer items-center gap-2 opacity-70 focus-within:opacity-100 hover:opacity-100">
-          Audio
-          <ChevronDownIcon strokeWidth="2" className="size-5 text-current" />
-        </button>
-        <Link href={"/"} className="opacity-70 hover:opacity-100">
-          Home
-        </Link>
-        <Link href={"/about"} className="opacity-70 hover:opacity-100">
-          About
-        </Link>
-      </div>
+      <NavLinks />
     </nav>
   );
 };

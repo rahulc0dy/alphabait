@@ -11,6 +11,7 @@ import {
 import "@/styles/globals.css";
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
+import { Toaster } from "sonner";
 
 const gelasio = Gelasio({
   variable: "--font-gelasio",
@@ -86,6 +87,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Toaster position="top-center" />
       </body>
     </html>
   );

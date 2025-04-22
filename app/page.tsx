@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <main className="wrapper mx-auto py-8">
@@ -7,9 +9,9 @@ export default function Home() {
           Immersive education meets innovation. Explore our interactive platform
           designed for young minds.
         </p>
-        <button className="bg-primary hover:bg-secondary cursor-pointer rounded px-6 py-3 text-white">
+        <Button className="text-shadow cursor-pointer text-lg">
           Get Started
-        </button>
+        </Button>
       </section>
     </main>
   );
