@@ -57,6 +57,18 @@ const gamjaFlower = Gamja_Flower({
 export const metadata: Metadata = {
   title: 'Alphabait',
   description: 'Learn the alphabets by intuition.',
+  icons: {
+    icon: [
+      {
+        url: '/assets/images/alphabait-logo-light.png',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/assets/images/alphabait-logo-dark.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
