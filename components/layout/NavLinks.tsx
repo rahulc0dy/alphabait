@@ -32,7 +32,11 @@ const NavLinks = () => {
               <Bars3Icon className="size-6" />
             </button>
           </SheetTrigger>
-          <SheetContent side="left" className="bg-bg w-64">
+          <SheetContent
+            side="left"
+            className="bg-bg w-64"
+            aria-describedby={"Menu Content"}
+          >
             <SheetHeader>
               <SheetTitle className="text-text">Menu</SheetTitle>
             </SheetHeader>

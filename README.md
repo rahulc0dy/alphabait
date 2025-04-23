@@ -1,4 +1,4 @@
-# LetterLand
+# AlphaBait
 
 **An immersive, multisensory, and accessible educational platform for children to learn the alphabet.**
 
@@ -21,7 +21,9 @@
 
 ## About
 
-LetterLand is designed to engage young learners through interactive letters that combine visual, auditory, and kinesthetic methods. By making each letter come alive on screen, learners can see, hear, and interact with the alphabet in fun and memorable ways.
+AlphaBait is designed to engage young learners through interactive letters that combine visual, auditory, and
+kinesthetic methods. By making each letter come alive on screen, learners can see, hear, and interact with the alphabet
+in fun and memorable ways.
 
 Extra features like gamification, augmented reality (AR), voice recording with feedback, and a parental dashboard ensure that learning stays engaging, trackable, and personalized.
 

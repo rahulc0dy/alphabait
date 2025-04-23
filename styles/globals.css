@@ -84,15 +84,15 @@
 
 :root {
   /* neutral */
-  --bg: #ffffff;
-  --bg-alt: #e5e5e5;
-  --border: oklch(0.92 0.004 286.32);
-  --text: #000000;
+  --bg: oklch(1 0 89.876);
+  --bg-alt: oklch(0.922 0 89.876);
+  --border: oklch(0.725 0 89.876);
+  --text: oklch(0 0 0);
 
   /* accents */
-  --primary: oklch(0.21 0.006 285.885); /* your “FF4A45” red */
-  --secondary: oklch(0.967 0.001 286.375); /* your “F14F4A” red */
-  --muted: oklch(0.967 0.001 286.375); /* mid gray */
+  --primary: oklch(0.669 0.218 26.603); /* your “FF4A45” red */
+  --secondary: oklch(0.652 0.199 26.084); /* your “F14F4A” red */
+  --muted: oklch(0.683 0 89.876); /* mid gray */
 
   /* gradient */
   --gradient-main: linear-gradient(135deg, #ff4a45 0%, #f14f4a 100%);
@@ -129,15 +129,15 @@
 [data-theme="dark"],
 .dark {
   /* neutral */
-  --bg: #000000;
-  --bg-alt: #1f1f1f;
-  --border: #999999;
-  --text: #ffffff;
+  --bg: oklch(0.178 0 89.876);
+  --bg-alt: oklch(0.239 0 89.876);
+  --border: oklch(0.683 0 89.876);
+  --text: oklch(1 0 89.876);
 
   /* accents */
-  --primary: #f14f4a;
-  --secondary: #ff4a45;
-  --muted: #a6a6a6;
+  --primary: oklch(0.652 0.199 26.084);
+  --secondary: oklch(0.669 0.218 26.603);
+  --muted: oklch(0.725 0 89.876);
 
   /* gradient */
   --gradient-main: linear-gradient(135deg, #f14f4a 0%, #ff4a45 100%);
@@ -154,11 +154,29 @@ kbd > kbd {
   background: aliceblue;
   border-radius: 4px;
   padding-inline: 4px;
-  box-shadow: 2px 2px 0 3px lightsteel;
+  box-shadow: 2px 2px 0 3px lightsteelblue;
 
   &:last-child {
     margin-inline-end: 4px;
   }
+}
+
+.auto-grid-column-generation {
+  --min-col-size: 20ch;
+  --grid-gap: 1rem;
+  display: grid;
+  /* This will create empty columns */
+  grid-template-columns: repeat(auto-fill, minmax(min(var(--min-col-size), 100%), 1fr));
+  gap: var(--grid-gap);
+}
+
+.auto-grid-non-column-generation {
+  --min-col-size: 20ch;
+  --grid-gap: 1rem;
+  display: grid;
+  /* This will not create empty columns */
+  grid-template-columns: repeat(auto-fit, minmax(min(var(--min-col-size), 100%), 1fr));
+  gap: var(--grid-gap);
 }
 
 body {
