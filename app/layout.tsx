@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import {
-  Gelasio,
-  Gruppo,
-  Give_You_Glory,
   Fenix,
-  Goldman,
   Flamenco,
   Gamja_Flower,
+  Gelasio,
+  Give_You_Glory,
+  Goldman,
+  Gruppo,
 } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -14,25 +14,25 @@ import Footer from "@/components/layout/Footer";
 import { Toaster } from "sonner";
 
 const gelasio = Gelasio({
-  variable: "--font-gelasio",
+  variable: "--gelasio",
   subsets: ["latin"],
 });
 
 const gruppo = Gruppo({
-  variable: "--font-gruppo",
+  variable: "--gruppo",
   subsets: ["latin"],
   display: "swap",
   weight: ["400"],
 });
 
 const giveYouGlory = Give_You_Glory({
-  variable: "--font-give-you-glory",
+  variable: "--give-you-glory",
   subsets: ["latin"],
   weight: ["400"],
 });
 
 const fenix = Fenix({
-  variable: "--font-fenix",
+  variable: "--fenix",
   subsets: ["latin"],
   weight: ["400"],
 });
@@ -44,13 +44,13 @@ const goldman = Goldman({
 });
 
 const flamenco = Flamenco({
-  variable: "--font-flamenco",
+  variable: "--flamenco",
   subsets: ["latin"],
   weight: ["300", "400"],
 });
 
 const gamjaFlower = Gamja_Flower({
-  variable: "--font-gamja-flower",
+  variable: "--gamja-flower",
   subsets: ["latin"],
   weight: ["400"],
 });
@@ -92,4 +92,3 @@ export default function RootLayout({
     </html>
   );
 }
-

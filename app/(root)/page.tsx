@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import LetterLinks from "@/components/LetterLinks";
 
 const cardData = [
   {
@@ -41,11 +42,11 @@ const cardData = [
 export default function Home() {
   return (
     <main className="wrapper mx-auto py-8">
-      <section className="text-center">
-        <h1 className="text-primary mb-4 text-5xl font-bold">
+      <section className="py-5 text-center">
+        <h1 className="text-primary mb-4 text-2xl font-bold md:text-5xl">
           Welcome to AlphaBait
         </h1>
-        <p className="mb-6 text-xl">
+        <p className="mb-6 sm:text-xl">
           Immersive education meets innovation. Explore our interactive platform
           designed for young minds.
         </p>
@@ -55,7 +56,7 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="text-primary mb-4 text-4xl font-bold">Features</h2>
+        <h2 className="text-primary mb-4 font-bold sm:text-4xl">Features</h2>
         <div className={"auto-grid-non-column-generation"}>
           {cardData.map((card, index) => (
             <Card key={index} className={"bg-bg-alt text-text"}>
@@ -74,6 +75,11 @@ export default function Home() {
             </Card>
           ))}
         </div>
+      </section>
+
+      <section className={"py-5"}>
+        <h2 className="text-primary font-bold sm:text-4xl">Learn</h2>
+        <LetterLinks />
       </section>
     </main>
   );

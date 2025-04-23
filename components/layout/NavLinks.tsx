@@ -33,7 +33,7 @@ const NavLinks = () => {
             </button>
           </SheetTrigger>
           <SheetContent
-            side="left"
+            side="right"
             className="bg-bg w-64"
             aria-describedby={"Menu Content"}
           >

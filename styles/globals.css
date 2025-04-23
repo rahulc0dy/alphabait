@@ -14,6 +14,13 @@
   --color-primary: var(--primary); /* your “FF4A45” red */
   --color-secondary: var(--secondary); /* your “F14F4A” red */
   --color-muted: var(--muted); /* mid gray */
+  --font-gelasio: var(--gelasio);
+  --font-gruppo: var(--gruppo);
+  --font-give-you-glory: var(--give-you-glory);
+  --font-fenix: var(--fenix);
+  --font-flamenco: var(--flamenco);
+  --font-gamja-flower: var(--gamja-flower);
+
 
   /* gradient */
 
@@ -145,7 +152,7 @@
 
 @utility wrapper {
   /* Set a maximum width of 1536px to align with common large screen sizes, while maintaining responsiveness */
-  width: min(1200px, 100% - 2rem);
+  width: min(1000px, 100% - 2rem);
   margin-inline: auto;
 }
 
