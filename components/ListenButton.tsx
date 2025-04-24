@@ -41,7 +41,6 @@ export const ListenToRhymeButton = ({ rhyme }: { rhyme: string[] }) => {
         "font-flamenco text-text active:bg-primary cursor-pointer rounded-lg bg-transparent text-2xl font-medium"
       }
       onClick={() => {
-        console.log(selectedVoice);
         textToSpeech(rhymeText, selectedVoice);
       }}
     >
