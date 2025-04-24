@@ -5,21 +5,13 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#ff4a45",
+  "theme_color": "#111111",
   "orientation": "portrait-primary",
   "author": "Rahul Chakraborty",
-  "contributors": [
-    "Aritra Ghosh",
-    "Souvik Mukherjee"
-  ],
+  "contributors": ["Aritra Ghosh", "Souvik Mukherjee"],
   "icons": [
     {
       "src": "/icons/light-logo.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    },
-    {
-      "src": "/icons/dark-logo.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     },

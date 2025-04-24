@@ -10,12 +10,15 @@ import Image from "next/image";
 import { getAlphabetData } from "@/lib/utils/alphabet-data";
 import ListenButton, { ListenToRhymeButton } from "@/components/ListenButton";
 import WordCard from "@/components/WordCard";
+import LetterLinks from "@/components/LetterLinks";
 
 const alphabetValidation = z
   .string({ message: "Unable to parse the alphabet entered." })
   .length(1, "Looks like you passed a load of characters, We don't allow that.")
   .regex(/^[a-z0-9]$/i, "The alphabet is invalid or not yet supported.")
   .toLowerCase();
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const letters = "abcdefghijklmnopqrstuvwxyz".split("");
@@ -182,6 +185,11 @@ const LetterPage = async ({
             </Card>
           ))}
         </div>
+      </section>
+
+      <section className={"py-4"}>
+        <h3>Other letters</h3>
+        <LetterLinks />
       </section>
     </main>
   );

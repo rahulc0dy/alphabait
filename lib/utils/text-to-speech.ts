@@ -1,13 +1,23 @@
 /**
- * Handles the text-to-speech functionality using the Web Speech API.
+ * Converts the provided text to speech using the Web Speech API.
  *
- * This function checks if the browser supports the SpeechSynthesis API.
- * If supported, it converts the provided text into speech using the SpeechSynthesisUtterance object.
- * If not supported by the browser, it logs an error message to the console.
+ * @param {string} text - The text to be converted to speech.
+ * @param {SpeechSynthesisVoice|null} [voice] - An optional parameter specifying
+ * the voice to be used for speech synthesis. If not provided, the default voice will be used.
  *
- * @param {string} text - The text to be converted into speech.
+ * @throws Will log an error message to the console if the browser does not support speech synthesis.
+ *
+ * @description
+ * This function uses the Web Speech API to perform text-to-speech operations.
+ * It first ensures the browser supports the `speechSynthesis` feature, and if not,
+ * logs an error message. If speech synthesis is supported, it cancels any ongoing
+ * speech operations, creates a new `SpeechSynthesisUtterance` instance with the
+ * provided text, and then starts speaking the text.
  */
-export const textToSpeech = (text: string) => {
+export const textToSpeech = (
+  text: string,
+  voice?: SpeechSynthesisVoice | null
+) => {
   if (!("speechSynthesis" in window)) {
     console.error("Browser does not support speech synthesis.");
     return;
@@ -16,6 +26,11 @@ export const textToSpeech = (text: string) => {
   window.speechSynthesis.cancel();
 
   const utterance = new SpeechSynthesisUtterance(text);
+
+  // Set the voice if provided
+  if (voice) {
+    utterance.voice = voice;
+  }
 
   window.speechSynthesis.speak(utterance);
 };

@@ -10,12 +10,14 @@ import {
   SheetTrigger,
 } from "../ui/sheet"; // shadcn sheet components
 import { Bars3Icon } from "@heroicons/react/24/solid";
+import VoiceSelection from "@/components/VoiceSelection";
 
 const NavLinks = () => {
   return (
     <>
       {/* Desktop: always visible links */}
       <div className="hidden items-center gap-5 md:flex">
+        <VoiceSelection />
         <ThemeSwitchButton />
         <Link href="/" className="opacity-70 hover:opacity-100">
           Home
@@ -48,6 +50,7 @@ const NavLinks = () => {
                 About
               </Link>
               <ThemeSwitchButton />
+              <VoiceSelection />
             </div>
           </SheetContent>
         </Sheet>

@@ -1,17 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { Button } from "@/components/ui/button";
 import { textToSpeech } from "@/lib/utils/text-to-speech";
+import { useVoice } from "@/hooks/useVoice";
 
 export const ListenButton = ({ text }: { text: string }) => {
+  const { selectedVoice } = useVoice();
+
   return (
     <Button
       className={
         "font-gamja-flower text-text bg-bg-alt cursor-pointer rounded-lg p-6 text-2xl font-medium"
       }
-      onClick={() => textToSpeech(text)}
+      onClick={() => textToSpeech(text, selectedVoice)}
     >
       <SpeakerWaveIcon className={"size-6"} />
       Listen
@@ -21,6 +24,14 @@ export const ListenButton = ({ text }: { text: string }) => {
 
 export const ListenToRhymeButton = ({ rhyme }: { rhyme: string[] }) => {
   const rhymeText = rhyme.join("\n");
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== "undefined" && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
 
   return (
     <Button
