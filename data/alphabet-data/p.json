@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "p",
+  "pronunciation": {
+    "ipa": "/pi/",
+    "spelling": "PEE"
+  },
+  "details": "“P” is the sixteenth letter of the modern English alphabet. It represents the /p/ sound, as in 'pen'. The letter 'P' is often used in words related to places, people, and activities.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/p.png",
+    "Hindi": "/assets/vectors/letters/hindi/p.png"
+  },
+  "wordsData": [
+    {
+      "word": "Pen",
+      "definition": "a writing instrument using ink",
+      "example": "She wrote a letter with a blue pen.",
+      "image": "/assets/images/pen.png"
+    },
+    {
+      "word": "Penguin",
+      "definition": "a flightless bird found in the Southern Hemisphere, especially Antarctica",
+      "example": "The penguin waddled on the ice.",
+      "image": "/assets/images/penguin.png"
+    },
+    {
+      "word": "Pineapple",
+      "definition": "a tropical fruit with a tough outer skin and sweet, juicy flesh",
+      "example": "He ate a slice of fresh pineapple.",
+      "image": "/assets/images/pineapple.png"
+    },
+    {
+      "word": "Panda",
+      "definition": "a large bear-like mammal native to China, known for its black and white fur",
+      "example": "The panda ate bamboo in the zoo.",
+      "image": "/assets/images/panda.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "P is for Penguin (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "P is for penguin, cold and white,",
+        "Waddling on the ice at night.",
+        "With a flap, it swims below,",
+        "P is for penguin, in the snow."
+      ]
+    },
+    {
+      "name": "P is for Pineapple (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "P is for pineapple, so sweet and bright,",
+        "Peel off the skin, and take a bite!",
+        "Juicy and delicious, it's fun to eat,",
+        "P is for pineapple, a tropical treat!"
+      ]
+    }
+  ]
+}

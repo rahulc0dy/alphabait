@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import LetterLinks from "@/components/LetterLinks";
+import PWAInstallButton from "@/components/PWAInstallButton";
 
 const cardData = [
   {
@@ -50,9 +50,7 @@ export default function Home() {
           Immersive education meets innovation. Explore our interactive platform
           designed for young minds.
         </p>
-        <Button className="text-shadow bg-primary text-text cursor-pointer text-lg">
-          Get Started
-        </Button>
+        <PWAInstallButton />
       </section>
 
       <section>

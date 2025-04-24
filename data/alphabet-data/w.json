@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "w",
+  "pronunciation": {
+    "ipa": "/dʌbljuː/",
+    "spelling": "DOUBLE YOU"
+  },
+  "details": "“W” is the twenty-third letter of the modern English alphabet. It represents the /w/ sound, as in 'water'. The letter 'W' is often used in words related to work, world, and wonder.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/w.png",
+    "Hindi": "/assets/vectors/letters/hindi/w.png"
+  },
+  "wordsData": [
+    {
+      "word": "Water",
+      "definition": "a clear, colorless, odorless, and tasteless liquid that is essential for life",
+      "example": "She drank a glass of water after her workout.",
+      "image": "/assets/images/water.png"
+    },
+    {
+      "word": "Whale",
+      "definition": "a large marine mammal that lives in oceans",
+      "example": "The whale breached the surface of the water.",
+      "image": "/assets/images/whale.png"
+    },
+    {
+      "word": "Window",
+      "definition": "an opening in a wall or building, typically covered with glass",
+      "example": "She looked out the window to see the snow falling.",
+      "image": "/assets/images/window.png"
+    },
+    {
+      "word": "Wagon",
+      "definition": "a four-wheeled vehicle used for carrying goods or passengers",
+      "example": "The children played with their toy wagon in the yard.",
+      "image": "/assets/images/wagon.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "W is for Water (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "W is for water, flowing free,",
+        "From the river to the sea.",
+        "Quenching thirst and bringing life,",
+        "W is for water, free from strife."
+      ]
+    },
+    {
+      "name": "W is for Whale (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "W is for whale, big and grand,",
+        "Swimming through the ocean, across the sand.",
+        "With a tail so wide and a body so strong,",
+        "W is for whale, where it belongs!"
+      ]
+    }
+  ]
+}

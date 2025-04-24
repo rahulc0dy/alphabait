@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "a",
+  "pronunciation": {
+    "ipa": "/eɪ/",
+    "spelling": "AY"
+  },
+  "details": "“A” is the first letter and the first vowel of the modern Latin alphabet, used in English and many other languages worldwide.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/a.png",
+    "Hindi": "/assets/vectors/letters/hindi/a.png"
+  },
+  "wordsData": [
+    {
+      "word": "Ant",
+      "definition": "a small insect that lives in a colony and has a narrow waist connecting two large sections of its body",
+      "example": "The ant carried a crumb twice its size back to its nest.",
+      "image": "/assets/images/ant.png"
+    },
+    {
+      "word": "Apple",
+      "definition": "a round fruit with red, green, or yellow skin and crisp flesh",
+      "example": "She bit into a juicy red apple on a hot summer day.",
+      "image": "/assets/images/apple.png"
+    },
+    {
+      "word": "Axe",
+      "definition": "a tool with a heavy bladed head mounted across a handle, used for chopping wood",
+      "example": "He swung the axe to chop the wood for the fire.",
+      "image": "/assets/images/axe.png"
+    },
+    {
+      "word": "Arm",
+      "definition": "the upper limb of the human body, extending from the shoulder to the wrist",
+      "example": "He raised his arm to wave at his friend.",
+      "image": "/assets/images/arm.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "A is for Ants (hear the tune here)",
+      "content": [
+        "The ants go marching one by one, Hurrah, hurrah.",
+        "The ants go marching one by one, Hurrah, hurrah.",
+        "The ants go marching one by one,",
+        "The little one stops to suck his thumb,",
+        "And they all go marching down",
+        "To the ground",
+        "To get out of the rain,",
+        "BOOM! BOOM! BOOM!"
+      ]
+    },
+    {
+      "name": "A is for Apple Tree (sing to the tune of “A is for Apple Tree”)",
+      "content": [
+        "Once a little apple seed was planted in the ground.",
+        "Down came the raindrops, falling all around.",
+        "Out came the big sun, bright as bright could be,",
+        "And that little apple seed",
+        "Grew into a tree!"
+      ]
+    }
+  ]
+}

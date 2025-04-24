@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "d",
+  "pronunciation": {
+    "ipa": "/diː/",
+    "spelling": "DEE"
+  },
+  "details": "“D” is the fourth letter of the modern English alphabet. It represents a voiced dental or alveolar stop sound, as heard in 'dog' or 'doll'. The letter D originated from the Phoenician letter 'Dalet', which later evolved through the Greek 'Delta'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/d.png",
+    "Hindi": "/assets/vectors/letters/hindi/d.png"
+  },
+  "wordsData": [
+    {
+      "word": "Dog",
+      "definition": "a domesticated animal often kept as a pet, known for loyalty and barking",
+      "example": "The dog wagged its tail happily when it saw its owner.",
+      "image": "/assets/images/dog.png"
+    },
+    {
+      "word": "Drum",
+      "definition": "a percussion instrument that produces sound when struck",
+      "example": "He beat the drum to the rhythm of the music.",
+      "image": "/assets/images/drum.png"
+    },
+    {
+      "word": "Duck",
+      "definition": "a waterbird with a broad blunt bill, short legs, and webbed feet",
+      "example": "The duck swam across the pond with its ducklings.",
+      "image": "/assets/images/duck.png"
+    },
+    {
+      "word": "Door",
+      "definition": "a hinged, sliding, or revolving barrier at the entrance to a building or room",
+      "example": "She opened the door and walked into the house.",
+      "image": "/assets/images/door.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "D is for Dog (sing to the tune of 'London Bridge')",
+      "content": [
+        "D is for Dog who likes to play,",
+        "Likes to play, likes to play.",
+        "D is for Dog who likes to play,",
+        "All around the park!"
+      ]
+    },
+    {
+      "name": "D is for Drum (drumming rhyme)",
+      "content": [
+        "D is for Drum, bang it loud,",
+        "Drum so big, it makes us proud!",
+        "Beat the rhythm, feel the sound,",
+        "Dancing feet will stomp the ground!"
+      ]
+    }
+  ]
+}

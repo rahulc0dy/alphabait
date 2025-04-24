@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "o",
+  "pronunciation": {
+    "ipa": "/oʊ/",
+    "spelling": "OH"
+  },
+  "details": "“O” is the fifteenth letter of the modern English alphabet. It represents the /oʊ/ sound, as in 'orange'. The letter 'O' is often found in words related to objects, options, and openness.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/o.png",
+    "Hindi": "/assets/vectors/letters/hindi/o.png"
+  },
+  "wordsData": [
+    {
+      "word": "Orange",
+      "definition": "a round, juicy citrus fruit with a tough skin",
+      "example": "She ate a fresh orange for breakfast.",
+      "image": "/assets/images/orange.png"
+    },
+    {
+      "word": "Octopus",
+      "definition": "a sea creature with eight tentacles",
+      "example": "The octopus swam gracefully in the water.",
+      "image": "/assets/images/octopus.png"
+    },
+    {
+      "word": "Owl",
+      "definition": "a nocturnal bird of prey with a flat face and large eyes",
+      "example": "The owl hooted from the tree at night.",
+      "image": "/assets/images/owl.png"
+    },
+    {
+      "word": "Ocean",
+      "definition": "a vast body of saltwater that covers much of the Earth's surface",
+      "example": "The boat sailed across the vast ocean.",
+      "image": "/assets/images/ocean.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "O is for Orange (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "O is for orange, round and sweet,",
+        "A fruit that's juicy, what a treat!",
+        "From the tree to the market, it’s so bright,",
+        "O is for orange, a delicious bite!"
+      ]
+    },
+    {
+      "name": "O is for Owl (to the tune of 'London Bridge')",
+      "content": [
+        "O is for owl, flying so high,",
+        "With big eyes, it looks to the sky.",
+        "In the night, it hoots and calls,",
+        "O is for owl, it’s one of us all!"
+      ]
+    }
+  ]
+}

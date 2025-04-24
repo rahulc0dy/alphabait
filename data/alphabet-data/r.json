@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "r",
+  "pronunciation": {
+    "ipa": "/ɑːr/",
+    "spelling": "AR"
+  },
+  "details": "“R” is the eighteenth letter of the modern English alphabet. It represents the /r/ sound, as in 'rabbit'. The letter 'R' is often found in words related to running, red, and right.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/r.png",
+    "Hindi": "/assets/vectors/letters/hindi/r.png"
+  },
+  "wordsData": [
+    {
+      "word": "Rabbit",
+      "definition": "a small mammal with long ears, a short tail, and soft fur",
+      "example": "The rabbit hopped across the field.",
+      "image": "/assets/images/rabbit.png"
+    },
+    {
+      "word": "Rainbow",
+      "definition": "a multicolored arc that appears in the sky after rain",
+      "example": "We saw a beautiful rainbow after the storm.",
+      "image": "/assets/images/rainbow.png"
+    },
+    {
+      "word": "Rug",
+      "definition": "a piece of thick, woven fabric used to cover part of a floor",
+      "example": "The rug added warmth to the room.",
+      "image": "/assets/images/rug.png"
+    },
+    {
+      "word": "River",
+      "definition": "a large, flowing body of water that usually empties into a sea or ocean",
+      "example": "The river flows through the valley.",
+      "image": "/assets/images/river.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "R is for Rabbit (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "R is for rabbit, hopping fast,",
+        "Through the fields, it runs so fast.",
+        "With long ears and a fluffy tail,",
+        "R is for rabbit, in the meadow it sails."
+      ]
+    },
+    {
+      "name": "R is for Rainbow (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "R is for rainbow, shining bright,",
+        "Colors in the sky after the light.",
+        "Red, yellow, green, and blue,",
+        "R is for rainbow, a beautiful view!"
+      ]
+    }
+  ]
+}

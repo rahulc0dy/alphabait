@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "x",
+  "pronunciation": {
+    "ipa": "/ɛks/",
+    "spelling": "EX"
+  },
+  "details": "“X” is the twenty-fourth letter of the modern English alphabet. It represents the /ks/ sound, as in 'box'. The letter 'X' is often used in words related to crossing, marking, and multiplication.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/x.png",
+    "Hindi": "/assets/vectors/letters/hindi/x.png"
+  },
+  "wordsData": [
+    {
+      "word": "Xylophone",
+      "definition": "a musical instrument with wooden bars struck by mallets to produce sound",
+      "example": "She played a beautiful tune on the xylophone.",
+      "image": "/assets/images/xylophone.png"
+    },
+    {
+      "word": "Box",
+      "definition": "a container with flat sides and a lid, typically used for storing things",
+      "example": "The box was filled with books.",
+      "image": "/assets/images/box.png"
+    },
+    {
+      "word": "X-ray",
+      "definition": "a form of electromagnetic radiation used for imaging the inside of objects",
+      "example": "The doctor took an X-ray to check for fractures.",
+      "image": "/assets/images/xray.png"
+    },
+    {
+      "word": "Xenon",
+      "definition": "a chemical element, a colorless, dense gas used in some types of lamps",
+      "example": "Xenon lights are bright and energy-efficient.",
+      "image": "/assets/images/xenon.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "X is for Xylophone (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "X is for xylophone, play the tune,",
+        "With wooden bars that make a swoon.",
+        "Struck by mallets, sound so clear,",
+        "X is for xylophone, music we hear."
+      ]
+    },
+    {
+      "name": "X is for X-ray (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "X is for X-ray, shining bright,",
+        "Looking inside with all its might.",
+        "It shows us bones and hidden things,",
+        "X is for X-ray, what it brings!"
+      ]
+    }
+  ]
+}

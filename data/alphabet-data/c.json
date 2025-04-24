@@ -1,0 +1,63 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "c",
+  "pronunciation": {
+    "ipa": "/siː/",
+    "spelling": "SEE"
+  },
+  "details": "“C” is the third letter in the modern English alphabet. It can represent a 'soft' sound like 's' in 'city' or a 'hard' sound like 'k' in 'cat'. It originated from the Latin alphabet, derived from the Greek letter gamma.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/c.png",
+    "Hindi": "/assets/vectors/letters/hindi/c.png"
+  },
+  "wordsData": [
+    {
+      "word": "Cat",
+      "definition": "a small domesticated mammal with fur, a short snout, and retractable claws",
+      "example": "The cat slept peacefully on the windowsill.",
+      "image": "/assets/images/cat.png"
+    },
+    {
+      "word": "Cup",
+      "definition": "a small container used for drinking liquids",
+      "example": "She poured tea into the cup and handed it to her guest.",
+      "image": "/assets/images/cup.png"
+    },
+    {
+      "word": "Car",
+      "definition": "a road vehicle, typically with four wheels, powered by an engine",
+      "example": "The car zoomed down the highway at full speed.",
+      "image": "/assets/images/car.png"
+    },
+    {
+      "word": "Cake",
+      "definition": "a sweet baked dessert usually made from flour, sugar, and eggs",
+      "example": "We had chocolate cake for her birthday party.",
+      "image": "/assets/images/cake.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "C is for Cat (sing to the tune of 'Baa Baa Black Sheep')",
+      "content": [
+        "C is for Cat, with whiskers and a tail,",
+        "Chasing mice or playing with a pail.",
+        "Soft and furry, with a little purr,",
+        "Cats like to sleep and softly stir.",
+        "C is for Cat, meow, meow, meow,",
+        "Let’s pet the kitty right here and now!"
+      ]
+    },
+    {
+      "name": "C is for Car (vroom vroom rhyme)",
+      "content": [
+        "C is for Car that goes so fast,",
+        "Zooming by as it drives past.",
+        "Red or blue or even green,",
+        "Fastest car you’ve ever seen!",
+        "Vroom, vroom, down the lane,",
+        "Let’s ride in the car again!"
+      ]
+    }
+  ]
+}

@@ -7,8 +7,9 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
+import { getAlphabetData } from "@/lib/utils/alphabet-data";
+import ListenButton from "@/components/ListenButton";
 
 const alphabetValidation = z
   .string({ message: "Unable to parse the alphabet entered." })
@@ -17,52 +18,9 @@ const alphabetValidation = z
   .toLowerCase();
 
 export async function generateStaticParams() {
-  const letters = "abcdefghijklmnopqrstuvwxyz0123456789".split("");
+  const letters = "abcdefghijklmnopqrstuvwxyz".split("");
   return letters.map((letter) => ({ alphabet: letter }));
 }
-
-const wordsData = [
-  {
-    word: "Ant",
-    definition: "a small animal with a long body and a short neck",
-    example: "an ant is a small animal with a long body and a short neck",
-    image: "/assets/images/ant.png",
-  },
-  {
-    word: "Apple",
-    definition: "a small animal with a long body and a short neck",
-    example: "an ant is a small animal with a long body and a short neck",
-    image: "/assets/images/apple.png",
-  },
-  {
-    word: "Axe",
-    definition: "a small animal with a long body and a short neck",
-    example: "an ant is a small animal with a long body and a short neck",
-    image: "/assets/images/axe.png",
-  },
-  {
-    word: "Arm",
-    definition: "a small animal with a long body and a short neck",
-    example: "an ant is a small animal with a long body and a short neck",
-    image: "/assets/images/arm.png",
-  },
-];
-
-const rhymes: [
-  { name: string; content: string },
-  { name: string; content: string },
-] = [
-  {
-    name: "A is for Ants (hear the tune here)",
-    content:
-      "The ants go marching one by one, Hurrah, hurrah. The ants go marching one by one, Hurrah, hurrah. The ants go marching one by one, The little one stops to such his thumb, And they all go marching down Into the ground to get out of the rain, BOOM! BOOM! BOOM!",
-  },
-  {
-    name: "A is for Apple Tree (sing to the tune of “A is for Apple Tree”)",
-    content:
-      "Once a little apple seed was planted in the ground. Down came the raindrops, falling all around. Out came the big sun, bright as bright could be, And that little apple seed Grew into a tree!",
-  },
-];
 
 const LetterPage = async ({
   params,
@@ -78,6 +36,22 @@ const LetterPage = async ({
   }
 
   const validAlphabet = parsed.data;
+
+  const alphabetData = await getAlphabetData(validAlphabet);
+
+  if (!alphabetData) {
+    return (
+      <main className="wrapper">
+        <p>
+          The alphabet {validAlphabet.toUpperCase()} is not yet available to
+          learn.
+        </p>
+      </main>
+    );
+  }
+
+  const { pronunciation, details, regionalMappings, wordsData, rhymes } =
+    alphabetData;
 
   return (
     <main className="wrapper">
@@ -110,7 +84,7 @@ const LetterPage = async ({
             <Card className={"bg-bg-alt gap-0 px-6 py-2"}>
               <CardHeader>
                 <Image
-                  src={`/assets/vectors/letters/bengali/${validAlphabet}.png`}
+                  src={regionalMappings.Bengali}
                   alt={`${validAlphabet} in bengali`}
                   width={100}
                   height={100}
@@ -123,7 +97,7 @@ const LetterPage = async ({
             <Card className={"bg-bg-alt gap-0 px-6 py-2"}>
               <CardHeader>
                 <Image
-                  src={`/assets/vectors/letters/hindi/${validAlphabet}.png`}
+                  src={regionalMappings.Hindi}
                   alt={`${validAlphabet} in hindi`}
                   width={100}
                   height={100}
@@ -141,11 +115,7 @@ const LetterPage = async ({
         <div>
           <h3 className={"font-gamja-flower text-xl"}>Details</h3>
           <hr />
-          <p className={"font-fenix text-lg"}>
-            A, ora, is the first letter and the first vowel letter of the cyka
-            Latin alphabet,used in the modern English alphabet, and others
-            worldwide.
-          </p>
+          <p className={"font-fenix text-lg"}>{details}</p>
         </div>
 
         <div>
@@ -157,23 +127,16 @@ const LetterPage = async ({
                 "font-gamja-flower text-primary bg-bg-alt rounded-lg px-4 py-2 text-2xl font-medium"
               }
             >
-              /&apos;eɪ/
+              {pronunciation.ipa}
             </p>
             <p
               className={
                 "font-gamja-flower text-primary bg-bg-alt rounded-lg px-4 py-2 text-2xl font-medium"
               }
             >
-              AY
+              {pronunciation.spelling}
             </p>
-            <Button
-              className={
-                "font-gamja-flower text-text bg-bg-alt cursor-pointer rounded-lg p-6 text-2xl font-medium"
-              }
-            >
-              <SpeakerWaveIcon className={"size-6"} />
-              Listen
-            </Button>
+            <ListenButton text={validAlphabet} />
           </div>
         </div>
       </section>
@@ -238,10 +201,12 @@ const LetterPage = async ({
               </CardHeader>
               <CardContent
                 className={
-                  "text-text flex flex-col items-center justify-center gap-2 text-2xl"
+                  "text-text flex flex-col items-center justify-center gap-2 text-xl"
                 }
               >
-                {rhyme.content}
+                {rhyme.content.map((line, index) => (
+                  <p key={index}>{line}</p>
+                ))}
               </CardContent>
               <CardFooter className={"flex items-center justify-center"}>
                 <button

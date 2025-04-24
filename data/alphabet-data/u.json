@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "u",
+  "pronunciation": {
+    "ipa": "/juː/",
+    "spelling": "YOU"
+  },
+  "details": "“U” is the twenty-first letter of the modern English alphabet. It represents the /ʌ/ or /juː/ sound, as in 'umbrella'. The letter 'U' is often used in words related to unity, under, and understanding.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/u.png",
+    "Hindi": "/assets/vectors/letters/hindi/u.png"
+  },
+  "wordsData": [
+    {
+      "word": "Umbrella",
+      "definition": "a device used for protection against rain or sun",
+      "example": "She opened her umbrella to shield herself from the rain.",
+      "image": "/assets/images/umbrella.png"
+    },
+    {
+      "word": "Unicorn",
+      "definition": "a mythical horse-like creature with a single horn on its forehead",
+      "example": "The unicorn galloped through the enchanted forest.",
+      "image": "/assets/images/unicorn.png"
+    },
+    {
+      "word": "Up",
+      "definition": "toward a higher position",
+      "example": "She looked up at the stars in the night sky.",
+      "image": "/assets/images/up.png"
+    },
+    {
+      "word": "Utensil",
+      "definition": "an object used for a particular purpose, especially in cooking or eating",
+      "example": "He grabbed a spoon from the utensil drawer.",
+      "image": "/assets/images/utensil.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "U is for Unicorn (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "U is for unicorn, magic and bright,",
+        "Galloping through the sky at night.",
+        "With a single horn, shining so clear,",
+        "U is for unicorn, a creature so dear."
+      ]
+    },
+    {
+      "name": "U is for Umbrella (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "U is for umbrella, open wide,",
+        "To keep you dry from rain outside.",
+        "With colors bright and handles tall,",
+        "U is for umbrella, saving us all!"
+      ]
+    }
+  ]
+}

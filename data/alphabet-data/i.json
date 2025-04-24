@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "i",
+  "pronunciation": {
+    "ipa": "/aɪ/",
+    "spelling": "EYE"
+  },
+  "details": "“I” is the ninth letter of the modern English alphabet and the third vowel. It is pronounced as /aɪ/ in words like 'ice' and as /ɪ/ in words like 'in'. The letter 'I' has evolved from the Phoenician 'yod', through the Greek 'iota'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/i.png",
+    "Hindi": "/assets/vectors/letters/hindi/i.png"
+  },
+  "wordsData": [
+    {
+      "word": "Ice",
+      "definition": "frozen water, a brittle transparent crystalline solid",
+      "example": "She added ice to her drink to keep it cool.",
+      "image": "/assets/images/ice.png"
+    },
+    {
+      "word": "Ink",
+      "definition": "a colored fluid or paste used for writing, drawing, or printing",
+      "example": "The pen ran out of ink.",
+      "image": "/assets/images/ink.png"
+    },
+    {
+      "word": "Igloo",
+      "definition": "a type of shelter built of snow, originally used by Inuit people",
+      "example": "The explorers built an igloo to stay warm.",
+      "image": "/assets/images/igloo.png"
+    },
+    {
+      "word": "Insect",
+      "definition": "a small arthropod animal with six legs and generally one or two pairs of wings",
+      "example": "The garden is full of colorful insects.",
+      "image": "/assets/images/insect.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "I is for Insects (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "Insects flying through the air,",
+        "Buzzing here and buzzing there.",
+        "Tiny legs and tiny wings,",
+        "Doing all their buggy things.",
+        "Insects flying through the air,",
+        "Buzzing here and buzzing there."
+      ]
+    },
+    {
+      "name": "I is for Ice (to the tune of 'Row, Row, Row Your Boat')",
+      "content": [
+        "Ice, ice, cold and nice,",
+        "Melting in the sun.",
+        "Chill it up and cool it down,",
+        "Frozen winter fun!"
+      ]
+    }
+  ]
+}

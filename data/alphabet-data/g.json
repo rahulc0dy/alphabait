@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "g",
+  "pronunciation": {
+    "ipa": "/dʒiː/",
+    "spelling": "GEE"
+  },
+  "details": "“G” is the seventh letter of the modern English alphabet. It represents the voiced velar plosive /g/ as in 'goat' and also the soft /dʒ/ sound as in 'giraffe'. It was introduced in the Latin alphabet as a modification of 'C'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/g.png",
+    "Hindi": "/assets/vectors/letters/hindi/g.png"
+  },
+  "wordsData": [
+    {
+      "word": "Goat",
+      "definition": "a hardy domesticated ruminant animal with backward curving horns and a beard",
+      "example": "The goat climbed up the rocky hill.",
+      "image": "/assets/images/goat.png"
+    },
+    {
+      "word": "Grapes",
+      "definition": "a small round or oval fruit typically green, purple, or red, grown in clusters on vines",
+      "example": "She picked some juicy grapes from the vine.",
+      "image": "/assets/images/grapes.png"
+    },
+    {
+      "word": "Guitar",
+      "definition": "a stringed musical instrument played by plucking or strumming",
+      "example": "He played a beautiful tune on his guitar.",
+      "image": "/assets/images/guitar.png"
+    },
+    {
+      "word": "Giraffe",
+      "definition": "the tallest living terrestrial animal with a very long neck and legs",
+      "example": "The giraffe reached up to eat leaves from the tree.",
+      "image": "/assets/images/giraffe.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "G is for Goat (to the tune of 'Baa Baa Black Sheep')",
+      "content": [
+        "Giddy goat, giddy goat, climbing up the hill,",
+        "Finding tasty grass, eating all his fill.",
+        "With a little beard and horns that curve,",
+        "He munches happily with lots of verve!"
+      ]
+    },
+    {
+      "name": "G is for Grapes (to the tune of 'Twinkle Twinkle Little Star')",
+      "content": [
+        "Grapes so purple, green, and red,",
+        "Hanging in a bunch overhead.",
+        "Plump and juicy, sweet to eat,",
+        "They make a lovely, healthy treat.",
+        "Grapes so purple, green, and red,",
+        "Hang above your garden bed."
+      ]
+    }
+  ]
+}

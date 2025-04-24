@@ -1,0 +1,63 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "b",
+  "pronunciation": {
+    "ipa": "/biː/",
+    "spelling": "BEE"
+  },
+  "details": "“B” is the second letter in the modern English alphabet and is classified as a consonant. It originates from the Phoenician symbol for 'house'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/b.png",
+    "Hindi": "/assets/vectors/letters/hindi/b.png"
+  },
+  "wordsData": [
+    {
+      "word": "Ball",
+      "definition": "a round object that is hit, kicked, or thrown in games",
+      "example": "The child threw the ball across the yard.",
+      "image": "/assets/images/ball.png"
+    },
+    {
+      "word": "Bat",
+      "definition": "a piece of sports equipment used to hit the ball in games like baseball or cricket",
+      "example": "He held the bat tightly and swung with all his strength.",
+      "image": "/assets/images/bat.png"
+    },
+    {
+      "word": "Bear",
+      "definition": "a large, heavy animal with thick fur and a short tail",
+      "example": "The bear lumbered through the forest in search of food.",
+      "image": "/assets/images/bear.png"
+    },
+    {
+      "word": "Bee",
+      "definition": "an insect known for producing honey and pollinating plants",
+      "example": "The bee buzzed from flower to flower collecting nectar.",
+      "image": "/assets/images/bee.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "B is for Ball (sing to the tune of 'Twinkle, Twinkle')",
+      "content": [
+        "B is for Ball so round and bright,",
+        "Rolling around from left to right.",
+        "Bounce it here and bounce it there,",
+        "Balls can go most anywhere!",
+        "B is for Ball we throw and catch,",
+        "It’s a toy that’s quite a match!"
+      ]
+    },
+    {
+      "name": "Buzzing Bee Rhyme",
+      "content": [
+        "Buzz, buzz, busy bee,",
+        "Flying all around the tree.",
+        "Gather nectar, fly back home,",
+        "Making honey all alone.",
+        "Buzzing here and buzzing there,",
+        "Bees are working everywhere!"
+      ]
+    }
+  ]
+}

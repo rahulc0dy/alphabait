@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "f",
+  "pronunciation": {
+    "ipa": "/ɛf/",
+    "spelling": "EF"
+  },
+  "details": "“F” is the sixth letter of the modern English alphabet. It originated from the Semitic letter 'waw' which represented a sound like /w/, and then transformed into Greek and Latin alphabets to represent the /f/ sound.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/f.png",
+    "Hindi": "/assets/vectors/letters/hindi/f.png"
+  },
+  "wordsData": [
+    {
+      "word": "Fish",
+      "definition": "a limbless cold-blooded vertebrate animal with gills and fins living wholly in water",
+      "example": "The fish swam swiftly in the pond.",
+      "image": "/assets/images/fish.png"
+    },
+    {
+      "word": "Frog",
+      "definition": "a tailless amphibian with a short squat body, moist skin, and very long hind legs for leaping",
+      "example": "The frog jumped into the water.",
+      "image": "/assets/images/frog.png"
+    },
+    {
+      "word": "Fan",
+      "definition": "a device with rotating blades that creates a current of air for cooling",
+      "example": "He turned on the fan to cool the room.",
+      "image": "/assets/images/fan.png"
+    },
+    {
+      "word": "Feather",
+      "definition": "one of the flat appendages growing from a bird's skin used for flight or insulation",
+      "example": "The bird lost a beautiful feather.",
+      "image": "/assets/images/feather.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "F is for Fish (to the tune of 'Row, Row, Row Your Boat')",
+      "content": [
+        "Swim, swim, swim the fish,",
+        "In the water blue.",
+        "Wiggle waggle, wiggle waggle,",
+        "That’s what fishies do!"
+      ]
+    },
+    {
+      "name": "F is for Frog (to the tune of 'London Bridge')",
+      "content": [
+        "See the frog jump up and down,",
+        "Up and down, up and down.",
+        "See the frog jump up and down,",
+        "All around the pond!"
+      ]
+    }
+  ]
+}

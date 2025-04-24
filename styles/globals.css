@@ -21,7 +21,6 @@
   --font-flamenco: var(--flamenco);
   --font-gamja-flower: var(--gamja-flower);
 
-
   /* gradient */
 
   --color-gradient-main: var(--gradient-main);
@@ -139,7 +138,7 @@
   --bg: oklch(0.178 0 89.876);
   --bg-alt: oklch(0.239 0 89.876);
   --border: oklch(0.683 0 89.876);
-  --text: oklch(1 0 89.876);
+  --text: oklch(0.916 0 89.876);
 
   /* accents */
   --primary: oklch(0.652 0.199 26.084);
@@ -173,7 +172,10 @@ kbd > kbd {
   --grid-gap: 1rem;
   display: grid;
   /* This will create empty columns */
-  grid-template-columns: repeat(auto-fill, minmax(min(var(--min-col-size), 100%), 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(var(--min-col-size), 100%), 1fr)
+  );
   gap: var(--grid-gap);
 }
 
@@ -182,7 +184,10 @@ kbd > kbd {
   --grid-gap: 1rem;
   display: grid;
   /* This will not create empty columns */
-  grid-template-columns: repeat(auto-fit, minmax(min(var(--min-col-size), 100%), 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--min-col-size), 100%), 1fr)
+  );
   gap: var(--grid-gap);
 }
 
@@ -234,4 +239,3 @@ body {
     @apply bg-background text-foreground;
   }
 }
-

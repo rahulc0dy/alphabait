@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "e",
+  "pronunciation": {
+    "ipa": "/iː/",
+    "spelling": "EE"
+  },
+  "details": "“E” is the fifth letter and the second vowel of the modern English alphabet. It is the most commonly used letter in the English language. The letter E originated from the Phoenician letter 'He', and was adopted into Greek as 'Epsilon'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/e.png",
+    "Hindi": "/assets/vectors/letters/hindi/e.png"
+  },
+  "wordsData": [
+    {
+      "word": "Elephant",
+      "definition": "a large herbivorous mammal with a trunk, native to Africa and Asia",
+      "example": "The elephant sprayed water with its trunk.",
+      "image": "/assets/images/elephant.png"
+    },
+    {
+      "word": "Egg",
+      "definition": "an oval or round object laid by a female bird, reptile, fish, or invertebrate, often eaten as food",
+      "example": "She boiled an egg for breakfast.",
+      "image": "/assets/images/egg.png"
+    },
+    {
+      "word": "Eagle",
+      "definition": "a large bird of prey with a massive hooked bill and long broad wings",
+      "example": "The eagle soared high in the sky.",
+      "image": "/assets/images/eagle.png"
+    },
+    {
+      "word": "Engine",
+      "definition": "a machine with moving parts that converts power into motion",
+      "example": "The car's engine roared to life.",
+      "image": "/assets/images/engine.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "E is for Elephant (to the tune of 'Mary Had a Little Lamb')",
+      "content": [
+        "E is for Elephant big and strong,",
+        "Big and strong, big and strong.",
+        "E is for Elephant big and strong,",
+        "With a trunk so long!"
+      ]
+    },
+    {
+      "name": "E is for Egg (to the tune of 'Twinkle Twinkle')",
+      "content": [
+        "Eggs are oval, white or brown,",
+        "Sometimes fried or sometimes down.",
+        "Scrambled, boiled or poached with care,",
+        "Eggs for breakfast everywhere!"
+      ]
+    }
+  ]
+}

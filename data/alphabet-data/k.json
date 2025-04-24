@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "k",
+  "pronunciation": {
+    "ipa": "/keɪ/",
+    "spelling": "KAY"
+  },
+  "details": "“K” is the eleventh letter of the modern English alphabet. It is often silent when placed before 'n' at the start of a word (like 'knife'), but commonly represents the /k/ sound as in 'kite'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/k.png",
+    "Hindi": "/assets/vectors/letters/hindi/k.png"
+  },
+  "wordsData": [
+    {
+      "word": "Kite",
+      "definition": "a light frame covered with cloth or paper, flown in the wind at the end of a long string",
+      "example": "The child flew a red kite at the park.",
+      "image": "/assets/images/kite.png"
+    },
+    {
+      "word": "Key",
+      "definition": "a small piece of metal used to open locks",
+      "example": "He used the key to unlock the door.",
+      "image": "/assets/images/key.png"
+    },
+    {
+      "word": "Kangaroo",
+      "definition": "a large Australian marsupial that moves by hopping on its powerful hind legs",
+      "example": "The kangaroo carried its baby in a pouch.",
+      "image": "/assets/images/kangaroo.png"
+    },
+    {
+      "word": "King",
+      "definition": "the male ruler of an independent state, especially one who inherits the position by birth",
+      "example": "The king wore a golden crown.",
+      "image": "/assets/images/king.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "K is for Kite (to the tune of 'Twinkle, Twinkle')",
+      "content": [
+        "K is for kite flying high,",
+        "Soaring swiftly through the sky.",
+        "Watch it dip and watch it dive,",
+        "Riding on the wind alive.",
+        "K is for kite flying high,",
+        "Touching clouds way up in the sky!"
+      ]
+    },
+    {
+      "name": "K is for Kangaroo (to the tune of 'Mary Had a Little Lamb')",
+      "content": [
+        "Kangaroo goes hop, hop, hop,",
+        "Hop, hop, hop, hop, hop, hop.",
+        "Kangaroo goes hop, hop, hop,",
+        "All around the land!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "z",
+  "pronunciation": {
+    "ipa": "/ziː/",
+    "spelling": "ZEE"
+  },
+  "details": "“Z” is the twenty-sixth and final letter of the modern English alphabet. It represents the /z/ sound, as in 'zebra'. The letter 'Z' is often used in words related to animals, time zones, and the end of things.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/z.png",
+    "Hindi": "/assets/vectors/letters/hindi/z.png"
+  },
+  "wordsData": [
+    {
+      "word": "Zebra",
+      "definition": "a large wild animal from Africa with black and white stripes",
+      "example": "The zebra ran across the savanna, blending in with the grass.",
+      "image": "/assets/images/zebra.png"
+    },
+    {
+      "word": "Zipper",
+      "definition": "a fastening device used in clothing and bags that consists of two strips of fabric with interlocking teeth and a sliding mechanism",
+      "example": "She zipped up her jacket to stay warm.",
+      "image": "/assets/images/zipper.png"
+    },
+    {
+      "word": "Zoo",
+      "definition": "a place where animals are kept for the public to view and study",
+      "example": "The children visited the zoo to see the lions and elephants.",
+      "image": "/assets/images/zoo.png"
+    },
+    {
+      "word": "Zero",
+      "definition": "the number 0, representing nothing or the absence of quantity",
+      "example": "There are zero apples left in the basket.",
+      "image": "/assets/images/zero.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "Z is for Zebra (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "Z is for zebra, black and white,",
+        "Running through the savanna, what a sight!",
+        "With stripes so bold and oh so neat,",
+        "Z is for zebra, with four swift feet."
+      ]
+    },
+    {
+      "name": "Z is for Zoo (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "Z is for zoo, where animals play,",
+        "You can see lions and bears all day.",
+        "From elephants to giraffes so tall,",
+        "Z is for zoo, come one, come all!"
+      ]
+    }
+  ]
+}

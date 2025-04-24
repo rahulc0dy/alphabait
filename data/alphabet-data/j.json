@@ -1,0 +1,60 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "j",
+  "pronunciation": {
+    "ipa": "/dʒeɪ/",
+    "spelling": "JAY"
+  },
+  "details": "“J” is the tenth letter in the modern English alphabet. It was one of the last letters to be added and was originally a variant of 'I'. In modern English, it typically represents the sound /dʒ/ as in 'jam'.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/j.png",
+    "Hindi": "/assets/vectors/letters/hindi/j.png"
+  },
+  "wordsData": [
+    {
+      "word": "Jug",
+      "definition": "a container for liquids, with a handle and a spout",
+      "example": "She poured the juice from a large jug.",
+      "image": "/assets/images/jug.png"
+    },
+    {
+      "word": "Jam",
+      "definition": "a sweet spread made from fruit and sugar",
+      "example": "He likes toast with strawberry jam.",
+      "image": "/assets/images/jam.png"
+    },
+    {
+      "word": "Jeep",
+      "definition": "a small, sturdy motor vehicle used for travel over rough ground",
+      "example": "The jeep drove up the rocky hill with ease.",
+      "image": "/assets/images/jeep.png"
+    },
+    {
+      "word": "Jelly",
+      "definition": "a soft, sweet food made by boiling fruit juice with sugar",
+      "example": "She made grape jelly at home.",
+      "image": "/assets/images/jelly.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "J is for Jug (to the tune of 'London Bridge is Falling Down')",
+      "content": [
+        "J is for jug of juicy juice,",
+        "Juicy juice, juicy juice,",
+        "J is for jug of juicy juice,",
+        "Jumping joyfully!"
+      ]
+    },
+    {
+      "name": "J is for Jelly (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "Jelly wobbles on my plate, oh what fun!",
+        "Jelly wobbles on my plate, see it run!",
+        "It jiggles and it wiggles,",
+        "And it giggles as it giggles!",
+        "Jelly wobbles on my plate, yum yum yum!"
+      ]
+    }
+  ]
+}

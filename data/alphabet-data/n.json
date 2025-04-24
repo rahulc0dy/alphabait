@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "n",
+  "pronunciation": {
+    "ipa": "/ɛn/",
+    "spelling": "EN"
+  },
+  "details": "“N” is the fourteenth letter of the modern English alphabet. It represents the /n/ sound, as in 'nest'. The letter 'N' is commonly found in words related to nature, numbers, and navigation.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/n.png",
+    "Hindi": "/assets/vectors/letters/hindi/n.png"
+  },
+  "wordsData": [
+    {
+      "word": "Nest",
+      "definition": "a structure or location where birds or other animals lay their eggs and raise their young",
+      "example": "The bird built its nest in the tree.",
+      "image": "/assets/images/nest.png"
+    },
+    {
+      "word": "Nose",
+      "definition": "the part of the face or head that is used for smelling and breathing",
+      "example": "She wrinkled her nose at the smell.",
+      "image": "/assets/images/nose.png"
+    },
+    {
+      "word": "Night",
+      "definition": "the period of darkness in each twenty-four hours, typically from sunset to sunrise",
+      "example": "The stars were visible in the night sky.",
+      "image": "/assets/images/night.png"
+    },
+    {
+      "word": "Nail",
+      "definition": "a thin pointed metal pin used to fasten things together or as a part of the body",
+      "example": "He hammered a nail into the wall.",
+      "image": "/assets/images/nail.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "N is for Night (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "N is for night, so dark and deep,",
+        "Stars in the sky, as we go to sleep.",
+        "The moon is shining up above,",
+        "N is for night, a time to rest and love."
+      ]
+    },
+    {
+      "name": "N is for Nest (to the tune of 'Hickory Dickory Dock')",
+      "content": [
+        "N is for nest in the tree,",
+        "Birds make it home, wild and free.",
+        "Building with twigs, leaves, and straw,",
+        "N is for nest, the bird’s law."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "alphabet": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1
+    },
+    "pronunciation": {
+      "type": "object",
+      "properties": {
+        "ipa": {
+          "type": "string",
+          "pattern": "^/[^/]+/$"
+        },
+        "spelling": {
+          "type": "string"
+        }
+      },
+      "required": ["ipa", "spelling"]
+    },
+    "details": {
+      "type": "string"
+    },
+    "regionalMappings": {
+      "type": "object",
+      "properties": {
+        "Bengali": {
+          "type": "string",
+          "format": "uri"
+        },
+        "Hindi": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["Bengali", "Hindi"]
+    },
+    "wordsData": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "word": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "example": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["word", "definition", "example", "image"]
+      }
+    },
+    "rhymes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "content": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["name", "content"]
+      }
+    }
+  },
+  "required": [
+    "alphabet",
+    "pronunciation",
+    "details",
+    "regionalMappings",
+    "wordsData",
+    "rhymes"
+  ]
+}

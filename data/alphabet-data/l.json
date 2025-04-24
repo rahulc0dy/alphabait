@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "l",
+  "pronunciation": {
+    "ipa": "/ɛl/",
+    "spelling": "EL"
+  },
+  "details": "“L” is the twelfth letter of the modern English alphabet. It is a consonant and represents the /l/ sound, as in 'lake'. The letter 'L' is often used in words related to light, love, and learning.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/l.png",
+    "Hindi": "/assets/vectors/letters/hindi/l.png"
+  },
+  "wordsData": [
+    {
+      "word": "Lion",
+      "definition": "a large, carnivorous animal of the cat family, native to Africa and parts of Asia",
+      "example": "The lion roared loudly in the jungle.",
+      "image": "/assets/images/lion.png"
+    },
+    {
+      "word": "Lamp",
+      "definition": "a device for giving light, especially one that has a cover and a switch",
+      "example": "She turned on the lamp next to her bed.",
+      "image": "/assets/images/lamp.png"
+    },
+    {
+      "word": "Leaf",
+      "definition": "a flat, thin part of a plant, usually green, that grows from a stem or branch",
+      "example": "The leaf fell gently to the ground.",
+      "image": "/assets/images/leaf.png"
+    },
+    {
+      "word": "Ladder",
+      "definition": "a structure of two long pieces of wood or metal, with steps between them, that people use to climb up or down",
+      "example": "He climbed up the ladder to reach the roof.",
+      "image": "/assets/images/ladder.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "L is for Lion (to the tune of 'Yankee Doodle')",
+      "content": [
+        "L is for lion, wild and strong,",
+        "Roaring loudly all day long.",
+        "With a mane and tail so bright,",
+        "The lion runs with all its might!"
+      ]
+    },
+    {
+      "name": "L is for Lamp (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "Lamp, lamp, shining bright,",
+        "Giving us a glow at night.",
+        "Through the dark, you light the way,",
+        "Guiding us until the day."
+      ]
+    }
+  ]
+}

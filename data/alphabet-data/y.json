@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/alphabet-data.schema.json",
+  "alphabet": "y",
+  "pronunciation": {
+    "ipa": "/waɪ/",
+    "spelling": "WHY"
+  },
+  "details": "“Y” is the twenty-fifth letter of the modern English alphabet. It represents both a consonant sound, as in 'yes', and a vowel sound, as in 'my'. The letter 'Y' is commonly used in words related to questions, youth, and yellow.",
+  "regionalMappings": {
+    "Bengali": "/assets/vectors/letters/bengali/y.png",
+    "Hindi": "/assets/vectors/letters/hindi/y.png"
+  },
+  "wordsData": [
+    {
+      "word": "Yellow",
+      "definition": "a bright color that is the color of ripe lemons or the sun",
+      "example": "She wore a yellow dress to the party.",
+      "image": "/assets/images/yellow.png"
+    },
+    {
+      "word": "Yarn",
+      "definition": "a long, continuous length of thread used for knitting or weaving",
+      "example": "She used colorful yarn to make a scarf.",
+      "image": "/assets/images/yarn.png"
+    },
+    {
+      "word": "Yacht",
+      "definition": "a large, luxurious boat used for sailing or cruising",
+      "example": "They spent the weekend on their yacht.",
+      "image": "/assets/images/yacht.png"
+    },
+    {
+      "word": "Yoga",
+      "definition": "a system of physical and mental exercises aimed at promoting health and well-being",
+      "example": "She practices yoga every morning to stay fit.",
+      "image": "/assets/images/yoga.png"
+    }
+  ],
+  "rhymes": [
+    {
+      "name": "Y is for Yellow (to the tune of 'Twinkle, Twinkle, Little Star')",
+      "content": [
+        "Y is for yellow, bright and bold,",
+        "A color of sunshine, warmth to hold.",
+        "From flowers to bananas, shining bright,",
+        "Y is for yellow, a cheerful sight."
+      ]
+    },
+    {
+      "name": "Y is for Yoga (to the tune of 'If You’re Happy and You Know It')",
+      "content": [
+        "Y is for yoga, stretch and bend,",
+        "It helps your body and mind to mend.",
+        "From head to toes, feel the release,",
+        "Y is for yoga, bring you peace!"
+      ]
+    }
+  ]
+}
