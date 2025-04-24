@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { useVoice } from "@/hooks/useVoice";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,9 +9,10 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import { useVoiceContext } from "@/providers/VoiceProvider";
 
 const VoiceSelection = () => {
-  const { voices, selectedVoice, setSelectedVoice } = useVoice();
+  const { voices, selectedVoice, setSelectedVoice } = useVoiceContext();
 
   const handleSelectVoice = (voice: SpeechSynthesisVoice) => {
     setSelectedVoice(voice);

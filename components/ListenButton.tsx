@@ -4,10 +4,10 @@ import React, { useEffect } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { Button } from "@/components/ui/button";
 import { textToSpeech } from "@/lib/utils/text-to-speech";
-import { useVoice } from "@/hooks/useVoice";
+import { useVoiceContext } from "@/providers/VoiceProvider";
 
 export const ListenButton = ({ text }: { text: string }) => {
-  const { selectedVoice } = useVoice();
+  const { selectedVoice } = useVoiceContext();
 
   return (
     <Button
@@ -25,6 +25,8 @@ export const ListenButton = ({ text }: { text: string }) => {
 export const ListenToRhymeButton = ({ rhyme }: { rhyme: string[] }) => {
   const rhymeText = rhyme.join("\n");
 
+  const { selectedVoice } = useVoiceContext();
+
   useEffect(() => {
     return () => {
       if (typeof window !== "undefined" && window.speechSynthesis) {
@@ -38,7 +40,10 @@ export const ListenToRhymeButton = ({ rhyme }: { rhyme: string[] }) => {
       className={
         "font-flamenco text-text active:bg-primary cursor-pointer rounded-lg bg-transparent text-2xl font-medium"
       }
-      onClick={() => textToSpeech(rhymeText)}
+      onClick={() => {
+        console.log(selectedVoice);
+        textToSpeech(rhymeText, selectedVoice);
+      }}
     >
       <SpeakerWaveIcon className={"size-6"} />
       Listen

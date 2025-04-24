@@ -12,6 +12,7 @@ import "@/styles/globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { Toaster } from "sonner";
+import { VoiceProvider } from "@/providers/VoiceProvider";
 
 const gelasio = Gelasio({
   variable: "--gelasio",
@@ -84,9 +85,11 @@ export default function RootLayout({
       className={`${gelasio.variable} ${gruppo.variable} ${giveYouGlory.variable} ${fenix.variable} ${goldman.variable} ${flamenco.variable} ${gamjaFlower.variable} antialiased`}
     >
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <VoiceProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </VoiceProvider>
         <Toaster position="top-center" />
       </body>
     </html>
